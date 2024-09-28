@@ -357,7 +357,7 @@ def gerar_relatorio(entry_nome_aluno):
     janela_relatorio.title("Relatório de Desempenho")
 
     # Exibe nome do aluno
-    tk.Label(janela_relatorio, text=f"Aluno: {nome_aluno}%", font=("Arial", 14)).pack(pady=10)
+    tk.Label(janela_relatorio, text=f"Aluno: {nome_aluno}", font=("Arial", 14)).pack(pady=10)
 
     # Exibe cada resultado
     for simulado_id, tema, nivel_dificuldade, nota, data_realizacao in resultado:
